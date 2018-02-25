@@ -1,0 +1,26 @@
+.box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+    display: inline-block;
+}
+
+/* media queries */
+
+@media (max-width: 767px) {    /* box will only be blue if browser size is 767px or below */
+    .mobile {
+        background-color: #0997d3; 
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {     /* box will only be green if browser size is between 768px and 991px */
+    .tablet {
+        background-color: #bada55;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1800px) {    /* box will only be black if browser size is between 992px and 1800px */
+    .desktop {
+        background-color: #000;
+    }
+}

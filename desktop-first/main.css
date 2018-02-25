@@ -1,0 +1,23 @@
+.column {
+    float: left;    /* global styles - do not change */
+    height: 50px;    /* global styles - do not change */
+    width: 30%;
+    background-color: #e84610;
+    margin: 10px;
+}
+
+/* desktop */
+@media (max-width: 991px) {
+    .column {
+        background-color: #0997d3;
+    }
+}
+
+/* mobile */
+@media (max-width: 767px) {
+    .column {
+        background-color: #000;
+        width: 100%;    /* so divs are on top of each other */
+        margin: 10px 0;
+    }
+}
